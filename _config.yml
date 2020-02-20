@@ -80,7 +80,7 @@ analytics:
 # Site Author
 author:
   name             : "Carl Hildebrandt"
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   bio              : "Ph.D. Student at the University of Virginia, advised by [Dr. S. Elbaum](https://engineering.virginia.edu/faculty/sebastian-elbaum). Interested in testing and the verification of autonomous systems."
   location         : "Virginia, USA"
   employer         :
