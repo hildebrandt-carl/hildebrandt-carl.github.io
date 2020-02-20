@@ -80,9 +80,9 @@ analytics:
 # Site Author
 author:
   name             : "Carl Hildebrandt"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Charlottesville, Virginia"
+  avatar           : "profile.jpg"
+  bio              : "Ph.D. Student at the University of Virginia. Interested in testing and the verification of autonomous systems."
+  location         : "Virginia, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=pJ5Z_GEAAAAJ&hl=en&oi=ao"
