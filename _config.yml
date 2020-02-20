@@ -77,7 +77,6 @@ analytics:
   google:
     tracking_id          :
 
-
 # Site Author
 author:
   name             : "Carl Hildebrandt"
@@ -85,7 +84,7 @@ author:
   bio              : "Your biography for the left-hand sidebar"
   location         : "Charlottesville, Virginia"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=pJ5Z_GEAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -96,17 +95,17 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/hildebrandt-carl"
+  github           : "hildebrandt-carl"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/carl-hildebrandt-a4b9a16a/"
+  linkedin         : "carl-hildebrandt-a4b9a16a"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://stackoverflow.com/users/9957175/watchdog101"
+  stackoverflow    : "9957175/watchdog101"
   steam            :
   tumblr           :
   twitter          : 
@@ -255,7 +254,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
