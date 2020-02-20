@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 1"
+title: "Fire-Aware Planning of Aerial Trajectories and Ignitions"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'Prescribed fires can lessen wildfire severity and control invasive species, but they can also be risky and costly. Unmanned aerial systems can reduce those drawbacks by, for example, dropping ignition spheres to ignite the most hazardous areas. Existing systems, however, lack awareness of the fire vectors to operate autonomously, safely, and efficiently. In this work we address that limitation, introducing an approach that integrates a lightweight fire simulator and a planner for trajectories and ignition sphere drop waypoints. Both components are unique in that they are amenable to input from the system's sensors and the fire crew to increase fire awareness. We conducted a preliminary study that confirms that such inputs improve the accuracy of the fire simulation to counter the unpredictability of the target environment. The field study of the system showed that the fire-aware planner generated safe trajectories with effective ignitions leveraging the fire simulator predictions.'
+date: 2018-10-01
+venue: '2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)'
+paperurl: 'http://hildebrandt-carl.github.io/files/Beachly-2018IROS.pdf'
+citation: 'Beachly Evan, Carrick Detweiler, Sebastian Elbaum, Brittany Duncan, Carl Hildebrandt, Dirac Twidwell, and Craig Allen. "Fire-Aware Planning of Aerial Trajectories and Ignitions." In 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 685-692. IEEE, 2018'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+Prescribed fires can lessen wildfire severity and control invasive species, but they can also be risky and costly. Unmanned aerial systems can reduce those drawbacks by, for example, dropping ignition spheres to ignite the most hazardous areas. Existing systems, however, lack awareness of the fire vectors to operate autonomously, safely, and efficiently. In this work we address that limitation, introducing an approach that integrates a lightweight fire simulator and a planner for trajectories and ignition sphere drop waypoints. Both components are unique in that they are amenable to input from the system's sensors and the fire crew to increase fire awareness. We conducted a preliminary study that confirms that such inputs improve the accuracy of the fire simulation to counter the unpredictability of the target environment. The field study of the system showed that the fire-aware planner generated safe trajectories with effective ignitions leveraging the fire simulator predictions.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](http://hildebrandt-carl.github.io/files/Beachly-2018IROS.pdf)
