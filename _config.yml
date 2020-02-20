@@ -11,6 +11,7 @@ title                    : "Carl Hildebrandt"
 title_separator          : "-"
 name                     : &name "Carl Hildebrandt"
 description              : &description "Ph.D. Student at the University of Virginia"
+# url                      : http://127.0.0.1:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 url                      : https://hildebrandt-carl.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hildebrandt-carl.github.io"
@@ -80,8 +81,8 @@ analytics:
 # Site Author
 author:
   name             : "Carl Hildebrandt"
-  avatar           : "profile.png"
-  bio              : "Ph.D. Student at the University of Virginia, advised by [Dr. S. Elbaum](https://engineering.virginia.edu/faculty/sebastian-elbaum). Interested in testing and the verification of autonomous systems."
+  avatar           : "carl.png"
+  bio              : "Ph.D. Student at the University of Virginia, advised by Dr. Sebastian Elbaum. Interested in testing and the verification of autonomous systems."
   location         : "Virginia, USA"
   employer         :
   pubmed           : 

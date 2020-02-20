@@ -8,7 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-This is Carl Hildebrandts home on the web
+I am a Ph.D. student attending the University of Virginia in Charlottesville, Virginia. I am advised by [Dr. Sebastian Elbaum](https://engineering.virginia.edu/faculty/sebastian-elbaum). I hold a B.Eng. in Computer Engineering from the University of Pretoria in South Africa. My research interests lie in the intersection between robotics and software testing and verification. Specifically, I am interested in the verification of autonomous systems such as self-driving cars and autonomous drones. 
+
+Outside of the lab, I am an active member of the University of Virginia's club field hockey and triathlon team. I have summited Kilimanjaro, completed Comrades the world's oldest and largest ultramarathon, and I was part of the U18B South Africa National Hockey Team.
 
 <!-- A data-driven personal website
 ======

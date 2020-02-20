@@ -1,13 +1,15 @@
 ---
-title: "Blending Kinematic and Software Models for Tighter Reachability Analysis"
+title: "Paper Title Number 2"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'Reachable sets are critical for path planning and navigation of mo- bile autonomous systems. Traditionally, these sets are computed using system models instantiated with their physical bounds. This exclusive focus on the physical bounds belies the fact that these systems are increasingly driven by sophisticated software components that can also bound the variables in the system models. This work explores the degree to which bounds manifested in the software can affect the computation of reachable sets, introduces an analysis approach to discover such bounds in code, and illustrates the potential of that approach on two systems. The preliminary results reveal that taking into consideration software bounds can reduce traditionally computed reachable sets by up to 91%.'
-date: 2020-05-23
-venue: 'IEEE/ACM 42st International Conference on Software Engineering: New Ideas and Emerging Results'
-paperurl: 'http://hildebrandt-carl.github.io/files/Hildebrandt-2020ICSE'
-citation: 'Carl Hildebrandt, Sebastian Elbaum, and Nicola Bezzo. "Blending Kinematic and Software Models for Tighter Reachability Analysis." In 2020 IEEE/ACM 42st International Conference on Software Engineering: New Ideas and Emerging Results (ICSE-NIER), 2020'
+excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+date: 2010-10-01
+venue: 'Journal 1'
+paperurl: 'http://academicpages.github.io/files/paper2.pdf'
+citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
-Reachable sets are critical for path planning and navigation of mo- bile autonomous systems. Traditionally, these sets are computed using system models instantiated with their physical bounds. This exclusive focus on the physical bounds belies the fact that these systems are increasingly driven by sophisticated software components that can also bound the variables in the system models. This work explores the degree to which bounds manifested in the software can affect the computation of reachable sets, introduces an analysis approach to discover such bounds in code, and illustrates the potential of that approach on two systems. The preliminary results reveal that taking into consideration software bounds can reduce traditionally computed reachable sets by up to 91%.
+This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://hildebrandt-carl.github.io/files/Hildebrandt-2020ICSE)
+[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+
+Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
