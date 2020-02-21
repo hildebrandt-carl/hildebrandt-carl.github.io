@@ -36,18 +36,36 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
+        <!-- {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p> -->
+        {% endif %}
+
+        {% if page.awards != '' %}
+          <p> Awards: {{ page.awards }} </p>
+        {% endif %}
+
+        {% if page.excerpt%}
+          <p> {{ page.excerpt }} </p>
+        {% endif %}
+
+        {% if page.paperurl and page.publishurl %}
+          {% if page.publishurl != '' %}
+            <p><a href="{{ page.paperurl }}"><u>[PDF]</u></a> <a href="{{ page.publishurl }}"><u>[Publishing Site]</u></a></p>
+          {% else %}
+            <p><a href="{{ page.paperurl }}"><u>[PDF]</u></a></p>
+          {% endif %}
+        {% elsif page.paperurl %}
+          <p><a href="{{ page.paperurl }}"><u>[PDF]</u></a></p>
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
+        <!-- {% if page.authors and page.paperurl %}
+          <p>Recommended citation: {{ page.authors }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+        {% elsif page.authors %}
+          <p>Recommended citation: {{ page.authors }} </p>
+        {% endif %} -->
     
         </header>
       {% endunless %}
