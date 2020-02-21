@@ -11,41 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Eng. in Computer Engineering, University of Pretoria, 2016
+* Ph.D in Computer Science, University of Virginia, 2023 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-2018: Graduate Research Assistant
+  * University of Nebraska
+  * Supervisor: Sebastian Elbaum
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 2017: Software Engineer
+  * Cheesecake Trails
+  * Duties: Tasked with designing and implementing a web application that connected to an existing NodeJS server to allow communication between the web and an Android application.
+
+* 2018-2023: Graduate Research Assistant
+  * University of Virginia
+  * Supervisor: Sebastian Elbaum
+
+* 2014/2015: Vacation Work
+  * Independent
+  * Duties: Developed a Microsoft MVC 5 application on the Azure Platform.
+
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
@@ -56,4 +47,13 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Computer Science Graduate Student Group Webmaster
+
+Achievements
+======
+* 2017: Half Iron Man, Durban, South Africa
+* 2017: Comrades Ultramarathon, Durban, South Africa
+* 2016: Kilimanjaro, Tanzania
+* 2012: National U18B Field Hockey Team
+* 2012: Waterpolo First Team Captain
+
