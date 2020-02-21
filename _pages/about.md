@@ -1,14 +1,13 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a Ph.D. student attending the University of Virginia in Charlottesville, Virginia. I am advised by [Dr. Sebastian Elbaum](https://engineering.virginia.edu/faculty/sebastian-elbaum). I hold a B.Eng. in Computer Engineering from the University of Pretoria in South Africa. My research interests lie in the intersection between robotics and software testing and verification. Specifically, I am interested in the verification of autonomous systems such as self-driving cars and autonomous drones. 
+I am a Ph.D. student attending the University of Virginia, USA. I am advised by [Dr. Sebastian Elbaum](https://engineering.virginia.edu/faculty/sebastian-elbaum). I hold a B.Eng. in Computer Engineering from the University of Pretoria in South Africa. My research interests lie in the intersection between robotics and software testing and verification. Specifically, I am looking at combining the kinematic models of autonomous systems into testing procedures to verify the autonomous system is behaving as designed. Currently, I am focused on self-driving cars and autonomous quadrotors.
 
 Outside of the lab, I am an active member of the University of Virginia's club field hockey and triathlon team. I have summited Kilimanjaro, completed Comrades the world's oldest and largest ultramarathon, and I was part of the U18B South Africa National Hockey Team.
 
