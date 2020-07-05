@@ -9,5 +9,5 @@ venue: 'ISSTA 20: 29th ACM SIGSOFT International Symposium on Software Testing a
 paperurl: 'http://hildebrandt-carl.github.io/files/2020-07-18-ISSTA-Feasible.pdf'
 publishurl: ''
 authors: '<b>Carl Hildebrandt</b>, Sebastian Elbaum, Matthew B. Dwyer, Nicola Bezzo'
-awards: ''
+awards: 'Distinguished Artifact Award'
 ---
