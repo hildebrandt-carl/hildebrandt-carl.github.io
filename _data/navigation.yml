@@ -3,11 +3,11 @@ main:
   - title: "Publications"
     url: /publications/ 
 
-  # - title: "Teaching"
-  #   url: /teaching/    
+  - title: "Teaching"
+    url: /teaching/    
+        
+  - title: "Extra Curricular Achievements"
+    url: /extra/
 
   - title: "CV"
-    url: /cv/
-        
-  # - title: "Portfolio"
-  #   url: /Portfolio/
+    url: /files/hildebrandt-cv.pdf

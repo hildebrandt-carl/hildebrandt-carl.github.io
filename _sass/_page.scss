@@ -399,3 +399,9 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+img[src$="centerme"] {
+  display:block;
+  margin: 0 auto;
+}
