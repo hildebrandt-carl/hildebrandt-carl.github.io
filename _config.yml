@@ -82,14 +82,15 @@ analytics:
 author:
   name             : "Carl Hildebrandt"
   avatar           : "carl.png"
-  bio              : "Ph.D. Student at the University of Virginia. Interested in the testing and verification of autonomous systems."
+  bio              : "Ph.D. Student at the University of Virginia. Interested in the validation and verification of autonomous systems."
   location         : "Virginia, USA"
-  employer         :
+  employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=pJ5Z_GEAAAAJ&hl=en&oi=ao"
-  email            :
+  email            :  hildebrandt.carl@outlook.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              :  
+  lab_uri          : https://less-lab-uva.github.io
   bitbucket        :
   codepen          :
   dribbble         :
