@@ -2,7 +2,7 @@
 title: "Lead Lab Designer and Teaching Assistant"
 collection: teaching
 type: "Robotics for Software Engineers "
-permalink: /teaching/UVA-RoboticsForSoftwareEngineers
+permalink: /teaching/UVA-RoboticsForSoftwareEngineers2020
 venue: "University of Virginia"
 date: 2020-01-01
 location: "Charlottesville, USA"
