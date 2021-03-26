@@ -7,7 +7,7 @@ excerpt: 'Reachable sets are critical for path planning and navigation of mobile
 date: 2020-05-23
 venue: '2020 IEEE/ACM 42nd International Conference on Software Engineering: New Ideas and Emerging Results (<a href="https://2020.icse-conferences.org/details/icse-2020-New-Ideas-and-Emerging-Results/11/Blending-Kinematic-and-Software-Models-for-Tighter-Reachability-Analysis">ICSE-NIER</a>)'
 paperurl: 'http://hildebrandt-carl.github.io/files/2020-05-23-ICSE-Reach.pdf'
-publishurl: ''
+publishurl: 'https://dl.acm.org/doi/abs/10.1145/3377816.3381730'
 authors: '<b>Carl Hildebrandt</b>, Sebastian Elbaum, Nicola Bezzo'
 awards: ''
 ---

@@ -7,7 +7,7 @@ excerpt: 'While executing nominal tests on mobile robots is required for their v
 date: 2020-07-18
 venue: 'ISSTA 20: 29th ACM SIGSOFT International Symposium on Software Testing and Analysis Proceedings (<a href="https://conf.researchr.org/details/issta-2020/issta-2020-papers/27/Feasible-and-Stressful-Trajectory-Generation-for-Mobile-Robots">ISSTA</a>)'
 paperurl: 'http://hildebrandt-carl.github.io/files/2020-07-18-ISSTA-Feasible.pdf'
-publishurl: ''
+publishurl: 'https://dl.acm.org/doi/abs/10.1145/3395363.3397387'
 authors: '<b>Carl Hildebrandt</b>, Sebastian Elbaum, Matthew B. Dwyer, Nicola Bezzo'
 awards: 'Distinguished Artifact Award'
 ---
