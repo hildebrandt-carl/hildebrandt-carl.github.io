@@ -188,20 +188,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  service:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -239,6 +231,13 @@ defaults:
       type: talks
     values:
       layout: talk
+      author_profile: true
+  # _service
+  - scope:
+      path: ""
+      type: service
+    values:
+      layout: single
       author_profile: true
 
 # Sass/SCSS

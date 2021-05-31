@@ -3,8 +3,14 @@ main:
   - title: "Publications"
     url: /publications/ 
 
-  - title: "Teaching"
+  - title: "Teaching and Community Service"
     url: /teaching/    
+
+  - title: "Talks"
+    url: /talks/    
+
+  # - title: "Community Service"
+  #   url: /community-service/    
         
   - title: "Extra Curricular Achievements"
     url: /extra/
