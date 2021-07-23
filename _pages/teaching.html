@@ -14,5 +14,10 @@ author_profile: true
 <h1> Community Service </h1>
 
 {% for post in site.service reversed %}
-  <li>{{ post.title }}, {{ post.venue }}, {{ post.date | date: '%Y'}}</a></li>
+  <li>{{ post.title }}, {{ post.venue }}, {{ post.date | date: '%Y'}}</a>
+  {% if post.certificateurl  %}
+     - <a href="{{ post.certificateurl }}"><u>[Certificate]</u></a>
+  {% endif %}
+  </li>
 {% endfor %}
+

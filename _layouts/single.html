@@ -43,7 +43,11 @@ layout: default
         {% endif %}
 
         {% if page.awards != '' and page.awards%}
-          <p> Awards: {{ page.awards }} </p>
+            {% if page.award_url != '' and page.award_url%}
+              <p>Awards: <a href="{{ page.award_url }}">{{ page.awards }} </a></p>
+            {% else %}
+              <p> Awards: {{ page.awards }} </p>
+            {% endif %}
         {% endif %}
         
         {% if page.excerpt %}

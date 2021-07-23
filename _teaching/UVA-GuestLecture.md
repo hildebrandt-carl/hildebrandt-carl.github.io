@@ -27,7 +27,7 @@ I was tasked with designing each of the following labs for this course. More inf
 * [Lab 2: ROS processes, communication, and simulation environment](https://less-lab-uva.github.io/CS4501-Website/labs/lab2/)
 * [Lab 3: Representing States, System Parameterization, and Services](https://less-lab-uva.github.io/CS4501-Website/labs/lab3/)
 * [Lab 5: Perception through Image Analysis](https://less-lab-uva.github.io/CS4501-Website/labs/lab5/)
-* Lab 7: Mapping and Motion Planning
+* [Lab 7: Mapping and Motion Planning](https://less-lab-uva.github.io/CS4501-Website/labs/lab7/)
 
 ### Lecture
 
