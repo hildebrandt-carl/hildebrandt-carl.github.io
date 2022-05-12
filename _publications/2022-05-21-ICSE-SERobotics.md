@@ -9,4 +9,5 @@ paperurl: 'http://hildebrandt-carl.github.io/files/2022-05-21-ICSE-SERobotics.pd
 publishurl: ''
 authors: '<b>Carl Hildebrandt</b>, Meriel von Stein, Trey Woodlief, Sebastian Elbaum'
 awards: ''
+video: https://www.youtube.com/watch?v=S2Q-4dKW00g
 ---

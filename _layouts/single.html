@@ -54,14 +54,18 @@ layout: default
           <p> {{ page.excerpt }} </p>
         {% endif %}
 
-        {% if page.paperurl and page.publishurl %}
-          {% if page.publishurl != '' %}
-            <p><a href="{{ page.paperurl }}"><u>[PDF]</u></a> <a href="{{ page.publishurl }}"><u>[Publishing Site]</u></a></p>
-          {% else %}
-            <p><a href="{{ page.paperurl }}"><u>[PDF]</u></a></p>
+        {% if page.paperurl or page.publishurl or page.video %}
+        <p>
+          {% if page.paperurl != '' %}
+          <a href="{{ page.paperurl }}"><u>[PDF]</u></a>
           {% endif %}
-        {% elsif page.paperurl %}
-          <p><a href="{{ page.paperurl }}"><u>[PDF]</u></a></p>
+          {% if page.publishurl != '' %}
+          <a href="{{ page.publishurl }}"><u>[Publishing Site]</u></a>
+          {% endif %}
+          {% if page.video != '' %}
+          <a href="{{ page.video }}"><u>[Video]</u></a>
+          {% endif %}
+        </p>
         {% endif %}
         
              

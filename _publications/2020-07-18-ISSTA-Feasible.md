@@ -11,4 +11,5 @@ publishurl: 'https://dl.acm.org/doi/abs/10.1145/3395363.3397387'
 authors: '<b>Carl Hildebrandt</b>, Sebastian Elbaum, Matthew B. Dwyer, Nicola Bezzo'
 awards: 'Distinguished Artifact Award'
 award_url: 'http://hildebrandt-carl.github.io/files/2020_ISSTA_Award.png'
+video: https://www.youtube.com/watch?v=CGzUuVX2b3k
 ---
