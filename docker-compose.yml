@@ -1,12 +1,32 @@
-version: "3.7"
+# version: "3.7"
+
+# services:
+#   jekyll_site:
+#     image: jekyll/jekyll:3.8
+#     command: ["jekyll", "serve"]
+#     ports:
+#       - "4000:4000"
+#     volumes:
+#      - type: bind
+#        source: .
+#        target: /srv/jekyll
+
+version: '3'
 
 services:
   jekyll_site:
     image: jekyll/jekyll:3.8
-    command: ["jekyll", "serve"]
+    # command: jekyll serve --config _config.yml --watch --force_polling --verbose
+    command: jekyll serve
+    # network_mode: host
     ports:
       - "4000:4000"
+    # environment:
+    #   - JEKYLL_ENV=production
     volumes:
-     - type: bind
-       source: .
-       target: /srv/jekyll
+      - .:/srv/jekyll/
+    # deploy:
+    #   resources:
+    #         limits:
+    #            cpus: '1'
+    #            memory: 1024M
