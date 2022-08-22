@@ -11,8 +11,8 @@ title                    : "Carl Hildebrandt"
 title_separator          : "-"
 name                     : &name "Carl Hildebrandt"
 description              : &description "Ph.D. Student at the University of Virginia"
-url                      : http://127.0.0.1:4000
-# url                      : https://hildebrandt-carl.github.io
+# url                      : http://127.0.0.1:4000
+url                      : https://hildebrandt-carl.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hildebrandt-carl/hildebrandt-carl.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
