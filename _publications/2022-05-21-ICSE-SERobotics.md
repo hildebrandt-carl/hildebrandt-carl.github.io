@@ -6,7 +6,7 @@ excerpt: 'Robotics is a rapidly expanding field that needs software engineers. M
 date: 2021-05-30
 venue: '2022 IEEE/ACM International Conference on Software Engineering (<a href="https://conf.researchr.org/home/icse-2022">ICSE</a>)'
 paperurl: 'http://hildebrandt-carl.github.io/files/2022-05-21-ICSE-SERobotics.pdf'
-publishurl: ''
+publishurl: 'https://dl.acm.org/doi/abs/10.1145/3510456.3514161'
 authors: '<b>Carl Hildebrandt</b>, Meriel von Stein, Trey Woodlief, Sebastian Elbaum'
 awards: ''
 video: https://www.youtube.com/watch?v=S2Q-4dKW00g
