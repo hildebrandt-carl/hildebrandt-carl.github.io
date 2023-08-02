@@ -6,7 +6,7 @@ excerpt: "Robots operate under certain forces that affect their behavior. For ex
 date: 2023-05-29
 venue: '2023 IEEE International Conference on Robotics and Automation (<a href="https://www.icra2023.org/">ICRA</a>)'
 paperurl: 'http://hildebrandt-carl.github.io/files/2023-05-29-ICRA-Haptic.pdf'
-publishurl: ''
+publishurl: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10160313'
 authors: '<b>Carl Hildebrandt</b>, Wen Ying, Seongkook Heo, Sebastian Elbaum'
 awards: ''
 video: https://www.youtube.com/watch?v=5_QmRLWMhes

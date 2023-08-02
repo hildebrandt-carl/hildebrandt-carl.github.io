@@ -6,8 +6,8 @@ excerpt: "Adequately exercising the behaviors of autonomous vehicles is fundamen
 date: 2023-07-17
 venue: '2023 ACM SIGSOFT International Symposium on Software Testing and Analysis (<a href="https://2023.issta.org/">ISSTA</a>)'
 paperurl: 'http://hildebrandt-carl.github.io/files/2023-07-17-ISSTA-PhysCov.pdf'
-publishurl: ''
+publishurl: 'https://dl.acm.org/doi/pdf/10.1145/3597926.3598069'
 authors: '<b>Carl Hildebrandt</b>, Meriel von Stein, Sebastian Elbaum'
 awards: ''
-video: ''
+video: 'https://www.youtube.com/watch?v=NAGcOydSh6s'
 ---
