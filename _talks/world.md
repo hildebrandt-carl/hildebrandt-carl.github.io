@@ -6,5 +6,5 @@ permalink: /talks/WorldInTheLoopSimulation
 venue: "The IEEE International Conference on Robotics and Automation (ICRA 2021)"
 date: 2021-05-30
 location: "Online due to COVID"
-talk_link: https://www.youtube.com/watch?v=7MFQNq08OJM
+talk_link: https://www.youtube.com/embed/7MFQNq08OJM?si=K1ulz-A1YvtC26dA
 ---
