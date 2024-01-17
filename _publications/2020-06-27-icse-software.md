@@ -1,7 +1,7 @@
 ---
 collection: publications
 downloads:
-  paper: /assets/files/publications/ICSE20-Reachability.pdf
+  paper: /assets/files/publications/ICSE22-Software.pdf
   artifact: https://less-lab-uva.github.io/CS4501-Website/
   video: https://www.youtube.com/watch?v=S2Q-4dKW00g
 type: inproceedings
