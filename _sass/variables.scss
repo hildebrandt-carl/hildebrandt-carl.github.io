@@ -1,0 +1,50 @@
+:root {
+    --primary-color-light: #0000EE;
+    --secondary-color-light: #ffffff;
+    --text-color-light: #000000;
+    --background-color-light: #ffffff;
+    --invert-filter-light: invert(0);
+
+    --primary-color-dark: #0096FF;
+    --secondary-color-dark: #ffffff;
+    --text-color-dark: #ffffff;
+    --background-color-dark: #121212;
+    --invert-filter-dark: invert(1);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary-color: var(--primary-color-light);
+        --secondary-color: var(--secondary-color-light);
+        --text-color: var(--text-color-light);
+        --background-color: var(--background-color-light);
+        --invert-filter: var(--invert-filter-light);
+    }
+
+    #toggle-light {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: var(--primary-color-dark);
+        --secondary-color: var(--secondary-color-dark);
+        --text-color: var(--text-color-dark);
+        --background-color: var(--background-color-dark);
+        --invert-filter: var(--invert-filter-dark);
+    }
+
+    #toggle-dark {
+        display: none;
+    }
+}
+
+@media print {
+    :root {
+        --primary-color: var(--primary-color-light);
+        --text-color: var(--text-color-light);
+        --background-color: var(--background-color-light);
+        --invert-filter: var(--invert-filter-light);
+    }
+}

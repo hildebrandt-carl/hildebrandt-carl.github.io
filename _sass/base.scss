@@ -1,0 +1,46 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--background-color);
+    font-family: "OpenSans-Light", sans-serif;
+    font-size: 1.16667em;
+}
+
+body {
+    position: relative;
+    color: var(--text-color);
+    line-height: 1.5;
+    min-width: 20em;
+    max-width: 960px;
+    padding: 0 14px;
+    margin: 0 auto;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+    // font-family: "OpenSans", sans-serif; // Use OpenSans for bold text
+}
+
+h3 {
+    font-family: "OpenSans", sans-serif; // Use "OpenSans" for bold text
+    font-weight: bold; // Make the text bold
+}
+
+#toggle-dark,
+#toggle-light {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    color: var(--text-color);
+}
+
+.underline {
+    text-decoration: underline;
+}

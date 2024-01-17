@@ -1,0 +1,101 @@
+name: "Carl Hildebrandt"
+email: "hildebrandt-carl@outlook.com"
+address: "Charlottesville, VA, USA"
+position: "Ph.D. Candidate"
+affiliation: "University of Virginia"
+description: "Ph.D. candidate at the University of Virginia's LESS Lab, focusing on advancing the safety and reliability of autonomous systems."
+bio: "I am a Ph.D. candidate at the University of Virginia's [LESS Lab](https://less-lab-uva.github.io/), mentored by [Dr. Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/). My research intersects software testing and autonomous systems, focusing on safety and reliability. I have worked on test generation techniques, test execution strategies, and test adequacy metrics. I apply my work to a range of applications, including autonomous vehicles, unmanned aerial systems, and robots. My goal is to enhance the dependability of autonomous technologies across various industries."
+keywords:
+  - research
+  - publications
+  - autonomous systems
+  - machine learning
+  - testing
+  - simulation
+  - coverage
+  - software engineering
+available:
+  - "I'm on the job market!"
+cv: assets/files/hildebrandt-cv.pdf 
+social:
+  github-username: "hildebrandt-carl"
+  google-scholar: "pJ5Z_GEAAAAJ"
+  linkedin-username: "carl-hildebrandt"
+  youtube-channel: "hildebrandt-carl"
+education:
+  - degree: Ph.D., Computer Science
+    date: April 2023
+    school: University of Virginia
+    advisor:
+      - Sebastian Elbaum
+  - degree: B.Eng., Computer Engineering
+    date: Dec 2016
+    school: University of Pretoria
+positions:
+  - employer: Department of Computer Science, University of Virginia, LESS Lab
+    title: Graduate Research Assistant
+    duration: "August 2018 &mdash; Present"
+    description: "TBD"
+  - employer: Vuetech Health Innovations LLC
+    title: Head of Technology
+    duration: "November 2019 &mdash; December 2022"
+    description: "TBD"
+  - employer: Raytheon BBN
+    title: Graduate Research Intern
+    duration: "May 2022 &mdash; August 2022"
+    description: "TBD"
+  - employer: Department of Computer Science, University of Nebraska, NIMBUS Lab
+    title: Graduate Research Assistant
+    duration: "July 2017 &mdash; July 2018"
+    description: "TBD"
+  - employer: Cheesecake Trails
+    title: Software Engineer
+    duration: "November 2016 &mdash; June 2017"
+    description: "TBD"
+awards:
+  - award: "University of Virginia - All-University Graduate Teaching Award"
+    date: April 2023
+  - award: "University of Virginia - Graduate Teaching Award"
+    date: May 2022
+  - award: "University of Virginia Research Symposium - Best Poster"
+    date: September 2021
+  - award: "The University of Virginia Research Symposium - Best Presentation"
+    date: September 2020
+  - award: "ACM SIGSOFT ISSTA - Distinguished Artifact Award"
+    date: July 2020
+  - award: "IEEE/RSJ IROS - Best Paper Award on Safety, Security, and Rescue Robotics"
+    date: October 2018
+service:
+  - "ASE 2022: Artifact Reviewer"
+  - "UVA 2022: Graduate Student Council"
+  - "ICRA 2022: Technical Track Paper Reviewer"
+  - "ICSE 2021: Student Volunteer"
+teaching:
+  - position: Teaching Assistant
+    class_title: Introduction to Programming in C
+    school: The University of Pretoria
+    year: 2014
+  - position: Teaching Assistant
+    class_title: Data Structures and Algorithms in Java
+    school: The University of Pretoria
+    year: 2015
+  - position: Head Teaching Assistant
+    class_title: Program Design in C++
+    school: The University of Pretoria
+    year: 2015
+  - position: Head Teaching Assistant
+    class_title: Data Structures and Algorithms in Java
+    school: The University of Pretoria
+    year: 2016
+  - position: Lab Designer and Teaching Assistant
+    class_title: Robotics for Software Engineers
+    school: The University of Virginia
+    year: 2020
+  - position: Lab Designer and Guest Lecturer
+    class_title: Robotics for Software Engineers
+    school: The University of Virginia
+    year: 2021
+  - position: Supporting Instructor
+    class_title: Robotics for Software Engineers
+    school: The University of Virginia
+    year: 2022

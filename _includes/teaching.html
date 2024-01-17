@@ -1,0 +1,11 @@
+<section id="service" class="cv-section">
+    <header class="section-header">
+        <h2>Teaching</h2>
+    </header>
+    {% for class in site.data.profile.teaching %}
+    <div class="cv-item">
+        &bullet; {{ class.position }}: {{ class.class_title }} 
+        &bull; {{ class.school }} - {{ class.year }}
+    </div>
+    {% endfor %}
+</section>

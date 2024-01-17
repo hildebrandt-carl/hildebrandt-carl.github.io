@@ -1,0 +1,89 @@
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0em 0.1em;
+    width: 2em;
+    height: 2em;
+}
+
+img.icon {
+    filter: var(--invert-filter);
+    color: var(--background-color);
+}
+
+svg.icon {
+    filter: var(--invert-filter);
+    color: var(--background-color);
+}
+
+span.icon {
+    font-size: 1em;
+    line-height: 2em;
+    text-align: center;
+}
+
+span.icon-circle {
+    font-size: 0.8em;
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0.1em;
+    border: 0.25em solid var(--text-color);
+    border-radius: 1.25em;
+}
+
+i[class*=icon-] {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.2em;
+    height: auto;
+
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 2em;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+    content: "\e906";
+}
+
+.icon-linkedin:before {
+    content: "\e900";
+}
+
+.icon-orcid:before {
+    content: "\e901";
+}
+
+.icon-github:before {
+    content: "\e902";
+}
+
+.icon-youtube:before {
+    content: "\e903";
+}
+
+.icon-googlescholar:before {
+    content: "\e904";
+}
+
+.icon-docker:before {
+    content: "\e905";
+}
+
+.icon-sun:before {
+    content: "\e907";
+}
+
+.icon-moon:before {
+    content: "\e908";
+}

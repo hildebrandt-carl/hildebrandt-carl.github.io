@@ -1,0 +1,123 @@
+.cv-author {
+    font-weight: 900;
+}
+
+.cv-header {
+    padding: 1em 0 0 0;
+
+    .profile-photo {
+        width: 300px;
+        width: 300px;
+        max-width: 100%;
+        overflow: hidden;
+        @include border-radius(150px);
+        margin: 0 auto;
+        display: block;
+    }
+
+    .header-name {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .title-bar {
+        @include section-border;
+        padding: 0.3rem 0 0 0;
+        font-size: 0.85rem;
+        text-align: center;
+        height: 3em;
+
+        .social-link {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+
+    .header-bio {
+        margin: 0 0 1rem;
+    }
+
+    .header-isavailable {
+        margin: 0 0 1rem 0;
+        padding: 0.5rem 0;
+        background: var(--primary-color);
+        color: var(--secondary-color);
+        text-align: center;
+    }
+}
+
+.section-header {
+    @include section-border;
+
+    h2 {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+}
+
+.cv-section {
+    margin: 0 0 1rem 0;
+
+    .cv-item {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    .cv-item-title {
+        margin: 0;
+        display: inline;
+    }
+
+    .cv-item-details {
+        margin: 0;
+        display: inline;
+    }
+}
+
+.cv-footer {
+    border-top: 4px solid var(--text-color);
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+    .cv-footer-left {
+        float: left;
+    }
+
+    .cv-footer-right {
+        float: right;
+    }
+}
+
+.print-only {
+    display: none !important;
+}
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    .print-only {
+        display: block !important;
+
+        .cv-item-details {
+            display: inline !important;
+        }
+    }
+
+    span.print-only {
+        display: inline !important;
+    }
+
+
+    html {
+        font-size: 10pt;
+    }
+
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+        font-weight: normal;
+    }
+}

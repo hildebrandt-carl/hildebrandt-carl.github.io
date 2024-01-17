@@ -1,0 +1,10 @@
+<section id="awards" class="cv-section">
+    <header class="section-header">
+        <h2>Awards and Honors</h2>
+    </header>
+    {% for award in site.data.profile.awards %}
+    <div class="cv-item">
+        &bullet; <span itemprop="award">{{ award.award }}</span>, {{ award.date }}
+    </div>
+    {% endfor %}
+</section>
