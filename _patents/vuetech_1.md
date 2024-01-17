@@ -10,5 +10,5 @@ access_url: https://patentimages.storage.googleapis.com/66/1e/07/7a60e2615f0e00/
 url: https://patents.google.com/patent/US11282367B1/en
 citation: 'Aquino, Victor, Melony Bennis, Tien Comlekoglu, Jefferson Griscavage, and Carl Hildebrandt. "System and methods for safety, security, and well-being of individuals." U.S. Patent 11,282,367, issued March 22, 2022.'
 downloads:
-  patent: /assets/files/patents/US11282367
+  patent: /assets/files/patents/US11282367.pdf
 ---
