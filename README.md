@@ -1,6 +1,6 @@
-# hildebrandt-carl.github.io
+# carl-h.github.io
 
-This is the source code for my personal website, which you can view [here](https://hildebrandt-carl.com).
+This is the source code for my personal website, which you can view [here](https://carl-h.com).
 
 Structure:
 - Author information is in `_data/profile.yml`
