@@ -4,7 +4,7 @@ address: "Charlottesville, VA, USA"
 position: "Ph.D. Candidate"
 affiliation: "University of Virginia"
 description: "Ph.D. candidate at the University of Virginia's LESS Lab, focusing on advancing the safety and reliability of autonomous systems."
-bio: "I am a Ph.D. candidate at the University of Virginia's [LESS Lab](https://less-lab-uva.github.io/), mentored by [Dr. Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/). My research intersects software testing and autonomous systems, focusing on safety and reliability. I have worked on test generation techniques, test execution strategies, and test adequacy metrics. I apply my work to a range of applications, including autonomous vehicles, unmanned aerial systems, and robots. My goal is to enhance the dependability of autonomous technologies across various industries."
+bio: "I am a Ph.D. candidate at the University of Virginia's [LESS Lab](https://less-lab-uva.github.io/), mentored by [Dr. Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/). My research interests lie in the intersection of software testing and autonomous systems. I have worked on test generation techniques, test execution strategies, and test adequacy metrics. My work has been applied to a range of applications, including autonomous vehicles, unmanned aerial systems, and robots. My goal is to enhance the dependability of autonomous technologies across various industries."
 keywords:
   - research
   - publications
