@@ -71,31 +71,31 @@ service:
   - "ICRA 2022: Technical Track Paper Reviewer"
   - "ICSE 2021: Student Volunteer"
 teaching:
-  - position: Teaching Assistant
-    class_title: Introduction to Programming in C
-    school: The University of Pretoria
-    year: 2014
-  - position: Teaching Assistant
-    class_title: Data Structures and Algorithms in Java
-    school: The University of Pretoria
-    year: 2015
-  - position: Head Teaching Assistant
-    class_title: Program Design in C++
-    school: The University of Pretoria
-    year: 2015
-  - position: Head Teaching Assistant
-    class_title: Data Structures and Algorithms in Java
-    school: The University of Pretoria
-    year: 2016
-  - position: Lab Designer and Teaching Assistant
-    class_title: Robotics for Software Engineers
-    school: The University of Virginia
-    year: 2020
-  - position: Lab Designer and Guest Lecturer
-    class_title: Robotics for Software Engineers
-    school: The University of Virginia
-    year: 2021
   - position: Supporting Instructor
     class_title: Robotics for Software Engineers
     school: The University of Virginia
     year: 2022
+  - position: Lab Designer and Guest Lecturer
+    class_title: Robotics for Software Engineers
+    school: The University of Virginia
+    year: 2021
+  - position: Lab Designer and Teaching Assistant
+    class_title: Robotics for Software Engineers
+    school: The University of Virginia
+    year: 2020
+  - position: Head Teaching Assistant
+    class_title: Data Structures and Algorithms in Java
+    school: The University of Pretoria
+    year: 2016
+  - position: Head Teaching Assistant
+    class_title: Program Design in C++
+    school: The University of Pretoria
+    year: 2015
+  - position: Teaching Assistant
+    class_title: Data Structures and Algorithms in Java
+    school: The University of Pretoria
+    year: 2015
+  - position: Teaching Assistant
+    class_title: Introduction to Programming in C
+    school: The University of Pretoria
+    year: 2014
