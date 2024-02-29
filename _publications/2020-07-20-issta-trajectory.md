@@ -4,6 +4,7 @@ downloads:
   paper: /assets/files/publications/ISSTA20-Trajectory.pdf
   artifact: https://github.com/hildebrandt-carl/RobotTestGeneration
   video: https://www.youtube.com/watch?v=CGzUuVX2b3k
+  slides: /assets/files/slides/ISSTA20-Trajectory-Slides.pdf
 type: inproceedings
 author: [Carl Hildebrandt, Sebastian Elbaum, Nicola Bezzo, Matthew B Dwyer]
 title: "Feasible and Stressful Trajectory Generation for Mobile Robots"

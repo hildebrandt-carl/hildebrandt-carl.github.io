@@ -4,7 +4,7 @@ downloads:
   paper: /assets/files/publications/ICRA23-Haptic.pdf
   artifact: https://github.com/hildebrandt-carl/HapticSuit
   video: https://www.youtube.com/watch?v=5_QmRLWMhes
-  poster: /assets/files/posters/ICRA23-Haptic.pdf
+  poster: /assets/files/posters/ICRA23-Haptic-Poster.pdf
 type: inproceedings
 author: [Carl Hildebrandt, Wen Ying, Seongkook Heo, Sebastian Elbaum]
 title: "Mimicking Real Forces on a Drone Through a Haptic Suit to Enable Cost-Effective Validation"

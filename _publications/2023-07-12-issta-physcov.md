@@ -4,6 +4,7 @@ downloads:
   paper: /assets/files/publications/ISSTA23-PhysCov.pdf
   artifact: https://github.com/hildebrandt-carl/PhysicalCoverage
   video: https://www.youtube.com/watch?v=NAGcOydSh6s
+  slides: /assets/files/slides/ISSTA23-PhysCov-Slides.pdf
 type: inproceedings
 author: [Carl Hildebrandt, Meriel von Stein, Sebastian Elbaum]
 title: "PhysCov: Physical Test Coverage for Autonomous Vehicles"

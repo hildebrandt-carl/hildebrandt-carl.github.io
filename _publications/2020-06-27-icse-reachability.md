@@ -3,7 +3,8 @@ collection: publications
 downloads:
   paper: /assets/files/publications/ICSE20-Reachability.pdf
   video: https://www.youtube.com/watch?v=2SgU2Ewsudg
-  poster: /assets/files/posters/ICSE20-Reachability.pdf
+  poster: /assets/files/posters/ICSE20-Reachability-Poster.pdf
+  slides: /assets/files/slides/ICSE20-Reachability-Slides.pdf
 type: inproceedings
 author: [Carl Hildebrandt, Sebastian Elbaum, Nicola Bezzo]
 title: "Blending Kinematic and Software Models for Tighter Reachability Analysis"
