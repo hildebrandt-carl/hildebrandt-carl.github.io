@@ -3,7 +3,7 @@ collection: publications
 downloads:
   pre-print: /assets/files/publications/ICSE25-Differential.pdf
 type: inproceedings
-author: [Trey Woodlief, Carl Hildebrandt, Sebastian Elbaumm]
+author: [Trey Woodlief, Carl Hildebrandt, Sebastian Elbaum]
 title: "A Differential Testing Framework to Identify Critical AV Failures Leveraging Arbitrary Inputs"
 venue: "International Conference on Software Engineering (ICSE)"
 booktitle: "2025 IEEE/ACM International Conference on Software Engineering (ICSE)"
