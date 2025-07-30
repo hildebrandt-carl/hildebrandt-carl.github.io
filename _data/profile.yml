@@ -1,9 +1,9 @@
 name: "Carl Hildebrandt"
 email: "carl@carl-h.com"
-address: "Charlottesville, VA, USA"
-position: "Ph.D. Candidate"
-affiliation: "University of Virginia"
-description: "Ph.D. candidate at the University of Virginia's LESS Lab, focusing on advancing the safety and reliability of autonomous systems."
+address: "San Francisco, CA, USA"
+position: "System Software Engineer, Ph.D."
+affiliation: "Nuro"
+description: "Ph.D. graduate from the University of Virginia's LESS Lab, focusing on advancing the safety and reliability of autonomous systems."
 bio: "I am a Ph.D. graduate from the University of Virginia's [LESS Lab](https://less-lab-uva.github.io/), where I was mentored by [Dr. Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/). My dissertation advanced the intersection of software testing and autonomous systems, developing innovative test generation techniques, execution strategies, and adequacy metrics for applications including unmanned aerial systems, self-driving cars, and autonomous robotics. I currently apply my expertise in software testing and autonomy as a Software Systems Engineer at Nuro, where I verify and test state-of-the-art self-driving systems."
 keywords:
   - research
@@ -35,27 +35,27 @@ positions:
   - employer: Nuro
     title: Software System Engineer, Autonomy Verification and Test Engineering
     duration: "June 2024 &mdash; Present"
-    description: "TBD"
+    description: ""
   - employer: Department of Computer Science, University of Virginia, LESS Lab
     title: Graduate Research Assistant
     duration: "August 2018 &mdash; June 2024"
-    description: "TBD"
+    description: ""
   - employer: Vuetech Health Innovations LLC
     title: Head of Technology
     duration: "November 2019 &mdash; July 2022"
-    description: "TBD"
+    description: ""
   - employer: Raytheon BBN
     title: Graduate Research Intern
     duration: "May 2022 &mdash; August 2022"
-    description: "TBD"
+    description: ""
   - employer: Department of Computer Science, University of Nebraska, NIMBUS Lab
     title: Graduate Research Assistant
     duration: "July 2017 &mdash; July 2018"
-    description: "TBD"
+    description: ""
   - employer: Cheesecake Trails
     title: Software Engineer
     duration: "January 2017 &mdash; July 2017"
-    description: "TBD"
+    description: ""
 awards:
   - award: "University of Virginia - All-University Graduate Teaching Award"
     date: April 2023

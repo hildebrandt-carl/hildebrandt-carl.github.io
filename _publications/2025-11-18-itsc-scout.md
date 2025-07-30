@@ -1,7 +1,7 @@
 ---
 collection: publications
 downloads:
-  pre-print: /assets/files/publications/ITSC25-SCOUT.pdf
+  paper: /assets/files/publications/ITSC25-SCOUT.pdf
 type: inproceedings
 author: [Anil Yildiz, Sarah M. Thornton, Carl Hildebrandt, Sreeja Roy-Singh and Mykel J. Kochenderfer]
 title: "SCOUT: A Lightweight Framework for Scenario Coverage Assessment in Autonomous Driving"
