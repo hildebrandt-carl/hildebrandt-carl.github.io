@@ -1,22 +1,21 @@
 name: "Carl Hildebrandt"
 email: "carl@carl-h.com"
 address: "San Francisco, CA, USA"
-position: "System Software Engineer, Ph.D."
-affiliation: "Nuro"
-description: "Ph.D. graduate from the University of Virginia's LESS Lab, focusing on advancing the safety and reliability of autonomous systems."
-bio: "I am a Ph.D. graduate from the University of Virginia's [LESS Lab](https://less-lab-uva.github.io/), where I was mentored by [Dr. Sebastian Elbaum](https://www.cs.virginia.edu/~se4ja/). My dissertation advanced the intersection of software testing and autonomous systems, developing innovative test generation techniques, execution strategies, and adequacy metrics for applications including unmanned aerial systems, self-driving cars, and autonomous robotics. I currently apply my expertise in software testing and autonomy as a Software Systems Engineer at Nuro, where I verify and test state-of-the-art self-driving systems."
+position: "Founder & Ph.D. in Autonomous System Safety"
+affiliation: "Stealth Startup"
+description: "Building technology to make our roads safer."
+bio: "My career is driven by a single focus: building a foundation of trust between technology and the real world. During my Ph.D. in Autonomous System Safety, I explored the complex pipeline of testing systems that must operate flawlessly where software, hardware, and physical interactions meet. I learned that true safety isn't just about code; it's about creating verifiable proof in a constantly changing environment.\n\nThis insight led me to my current path. I am now the founder of a new venture in stealth mode, building technology to solve this exact challenge at scale. My mission is to create a new standard for safety and trust that will underpin the future of mobility.\n\nWhether it's on the hockey field, summiting Kilimanjaro, or pushing through an ultramarathon, I thrive on solving complex challenges that demand discipline and endurance. I'm bringing that same energy to building my company."
 keywords:
-  - research
-  - publications
+  - founder
+  - entrepreneurship
+  - vehicle safety
   - autonomous systems
   - machine learning
   - testing
-  - simulation
-  - coverage
   - software engineering
 available:
   # - "I'm on the job market!"
-cv: assets/files/hildebrandt-cv.pdf 
+cv: assets/files/hildebrandt-cv.pdf
 social:
   github-username: "hildebrandt-carl"
   google-scholar: "pJ5Z_GEAAAAJ"
@@ -32,9 +31,13 @@ education:
     date: Dec 2016
     school: University of Pretoria
 positions:
+  - employer: Stealth Startup
+    title: Founder & CEO
+    duration: "October 2025 &mdash; Present"
+    description: ""
   - employer: Nuro
     title: Software System Engineer, Autonomy Verification and Test Engineering
-    duration: "June 2024 &mdash; Present"
+    duration: "June 2024 &mdash; September 2025"
     description: ""
   - employer: Department of Computer Science, University of Virginia, LESS Lab
     title: Graduate Research Assistant
