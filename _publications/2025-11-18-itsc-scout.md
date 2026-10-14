@@ -3,7 +3,7 @@ collection: publications
 downloads:
   paper: /assets/files/publications/ITSC25-SCOUT.pdf
 type: inproceedings
-author: [Anil Yildiz, Sarah M. Thornton, Carl Hildebrandt, Sreeja Roy-Singh and Mykel J. Kochenderfer]
+author: [Anil Yildiz, Sarah M. Thornton, Carl Hildebrandt, Sreeja Roy-Singh, Mykel J. Kochenderfer]
 title: "SCOUT: A Lightweight Framework for Scenario Coverage Assessment in Autonomous Driving"
 venue: "International Conference on Intelligent Transportation Systems (ITSC)"
 booktitle: "2025 IEEE International Conference on Intelligent Transportation Systems (ITSC)"

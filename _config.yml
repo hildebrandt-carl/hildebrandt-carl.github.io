@@ -28,3 +28,6 @@ exclude:
 
 sass:
   style: compressed
+  # GitHub Pages' Sass doesn't support @use, so keep @import and hide the warning
+  silence_deprecations:
+    - import

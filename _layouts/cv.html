@@ -28,11 +28,20 @@
         <header class="cv-header">
             <picture>
                 <source type="image/webp" srcset="assets/images/profile.webp 1x, assets/images/profile-large.webp 2x">
-                <source type="image/jpeg" srcset="assets/images/profile.jpg 1x, assets/images/profile-large.jpg 2x">
-                <img src="assets/images/profile.jpg" alt="Profile picture." class="profile-photo no-print" itemprop="image">
+                <source type="image/png" srcset="assets/images/profile.png 1x, assets/images/profile-large.png 2x">
+                <img src="assets/images/profile.png" alt="Profile picture." class="profile-photo no-print" itemprop="image">
             </picture>
 
-            <h1 class="header-name" itemprop="name">{{site.data.profile.name}}</h1>
+            <div class="header-text">
+                <h1 class="header-name" itemprop="name">{{site.data.profile.name}}</h1>
+                {% if site.data.profile.headline %}
+                <p class="header-headline" itemprop="jobTitle">{{ site.data.profile.headline }}</p>
+                {% endif %}
+
+                <div id="social" class="title-bar no-print">
+                    {% include social-bar.html %}
+                </div>
+            </div>
 
             <div id="contact" class="cv-section print-only">
                 <div class="section-header">
@@ -50,15 +59,11 @@
                     Website: {{ site.url }}
                 </div>
             </div>
-
-            <div id="social" class="title-bar no-print">
-                {% include social-bar.html %}
-            </div>
         </header>
 
         <section id="bio" class="cv-section">
             <header class="section-header print-only">
-                <h2>Research Interests</h2>
+                <h2>About</h2>
             </header>
 
             <div class="header-bio" itemprop="description">
@@ -73,9 +78,9 @@
         </section>
 
 
-        {% include education.html %}
-
         {% include positions.html %}
+
+        {% include education.html %}
 
         {% include publications.html %}
 
@@ -100,31 +105,29 @@
     <script>
         var r = document.querySelector(':root');
         var query = window.location.search.replace("?", '');
-    
+        var themeTokens = ['primary-color', 'secondary-color', 'text-color', 'muted-color', 'border-color',
+            'surface-color', 'highlight-color', 'highlight-border', 'background-color', 'invert-filter'];
+
         function setTheme(theme) {
-            if (theme === 'dark') {
-                r.style.setProperty('--primary-color', getComputedStyle(r).getPropertyValue('--primary-color-dark'));
-                r.style.setProperty('--secondary-color', getComputedStyle(r).getPropertyValue('--secondary-color-dark'));
-                r.style.setProperty('--text-color', getComputedStyle(r).getPropertyValue('--text-color-dark'));
-                r.style.setProperty('--background-color', getComputedStyle(r).getPropertyValue('--background-color-dark'));
-                r.style.setProperty('--invert-filter', getComputedStyle(r).getPropertyValue('--invert-filter-dark'));
-                document.querySelector('#toggle-dark').style.display = "none";
-                document.querySelector('#toggle-light').style.display = "inline-block";
-            } else {
-                r.style.setProperty('--primary-color', getComputedStyle(r).getPropertyValue('--primary-color-light'));
-                r.style.setProperty('--secondary-color', getComputedStyle(r).getPropertyValue('--secondary-color-light'));
-                r.style.setProperty('--text-color', getComputedStyle(r).getPropertyValue('--text-color-light'));
-                r.style.setProperty('--background-color', getComputedStyle(r).getPropertyValue('--background-color-light'));
-                r.style.setProperty('--invert-filter', getComputedStyle(r).getPropertyValue('--invert-filter-light'));
-                document.querySelector('#toggle-dark').style.display = "inline-block";
-                document.querySelector('#toggle-light').style.display = "none";
-            }
+            var suffix = theme === 'dark' ? '-dark' : '-light';
+            themeTokens.forEach(function (token) {
+                r.style.setProperty('--' + token, getComputedStyle(r).getPropertyValue('--' + token + suffix));
+            });
+            document.querySelector('#toggle-dark').style.display = theme === 'dark' ? "none" : "inline-block";
+            document.querySelector('#toggle-light').style.display = theme === 'dark' ? "inline-block" : "none";
         }
         if (query === 'dark') {
             setTheme('dark');
         } else if (query === 'light') {
             setTheme('light');
         }
+
+        // Expand the collapsible sections so they appear in the printed CV
+        window.addEventListener('beforeprint', function () {
+            document.querySelectorAll('details').forEach(function (d) {
+                d.open = true;
+            });
+        });
     </script>
     
     

@@ -1,14 +1,24 @@
 :root {
-    --primary-color-light: #0000EE;
+    --primary-color-light: #2563eb;
     --secondary-color-light: #ffffff;
-    --text-color-light: #000000;
+    --text-color-light: #1a1a1a;
+    --muted-color-light: #6b7280;
+    --border-color-light: #e5e7eb;
+    --surface-color-light: #f5f6f8;
+    --highlight-color-light: #f0f5ff;
+    --highlight-border-light: #c9d8fb;
     --background-color-light: #ffffff;
     --invert-filter-light: invert(0);
 
-    --primary-color-dark: #0096FF;
-    --secondary-color-dark: #ffffff;
-    --text-color-dark: #ffffff;
-    --background-color-dark: #121212;
+    --primary-color-dark: #60a5fa;
+    --secondary-color-dark: #16181c;
+    --text-color-dark: #e6e6e6;
+    --muted-color-dark: #9ca3af;
+    --border-color-dark: #2a2e35;
+    --surface-color-dark: #1f2329;
+    --highlight-color-dark: #18233a;
+    --highlight-border-dark: #2c4570;
+    --background-color-dark: #16181c;
     --invert-filter-dark: invert(1);
 }
 
@@ -17,6 +27,11 @@
         --primary-color: var(--primary-color-light);
         --secondary-color: var(--secondary-color-light);
         --text-color: var(--text-color-light);
+        --muted-color: var(--muted-color-light);
+        --border-color: var(--border-color-light);
+        --surface-color: var(--surface-color-light);
+        --highlight-color: var(--highlight-color-light);
+        --highlight-border: var(--highlight-border-light);
         --background-color: var(--background-color-light);
         --invert-filter: var(--invert-filter-light);
     }
@@ -31,6 +46,11 @@
         --primary-color: var(--primary-color-dark);
         --secondary-color: var(--secondary-color-dark);
         --text-color: var(--text-color-dark);
+        --muted-color: var(--muted-color-dark);
+        --border-color: var(--border-color-dark);
+        --surface-color: var(--surface-color-dark);
+        --highlight-color: var(--highlight-color-dark);
+        --highlight-border: var(--highlight-border-dark);
         --background-color: var(--background-color-dark);
         --invert-filter: var(--invert-filter-dark);
     }
@@ -44,6 +64,11 @@
     :root {
         --primary-color: var(--primary-color-light);
         --text-color: var(--text-color-light);
+        --muted-color: var(--muted-color-light);
+        --border-color: var(--border-color-light);
+        --surface-color: var(--surface-color-light);
+        --highlight-color: var(--highlight-color-light);
+        --highlight-border: var(--highlight-border-light);
         --background-color: var(--background-color-light);
         --invert-filter: var(--invert-filter-light);
     }

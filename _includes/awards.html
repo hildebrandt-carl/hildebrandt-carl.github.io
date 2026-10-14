@@ -1,10 +1,11 @@
-<section id="awards" class="cv-section">
-    <header class="section-header">
+<details id="awards" class="cv-section cv-collapsible" open>
+    <summary class="section-header">
         <h2>Awards and Honors</h2>
-    </header>
+    </summary>
     {% for award in site.data.profile.awards %}
-    <div class="cv-item">
-        &bullet; <span itemprop="award">{{ award.award }}</span>, {{ award.date }}
+    <div class="cv-item cv-row cv-row-compact">
+        <div class="cv-row-main" itemprop="award">{{ award.award }}</div>
+        <div class="cv-row-date">{{ award.date }}</div>
     </div>
     {% endfor %}
-</section>
+</details>

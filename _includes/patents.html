@@ -1,18 +1,20 @@
-<section id="publications" class="cv-section">
-    <header class="section-header">
+<details id="patents" class="cv-section cv-collapsible" open>
+    <summary class="section-header">
         <h2>Patents</h2>
-    </header>
+    </summary>
     {% for patent in site.patents reversed %}
-    <div class="cv-item no-print" itemscope itemtype="https://schema.org/ScholarlyArticle">
+    <div class="cv-item cv-card cv-card-paper no-print" itemscope itemtype="https://schema.org/ScholarlyArticle">
         <meta itemprop="datePublished" content="{{patent.date | date: '%Y-%m-%d'}}">
         <meta itemprop="headline" content="{{patent.title}}">
+        <div class="cv-meta">
+            <span class="tag">US Patent &middot; {{ patent.year }}</span>
+        </div>
         <h3 class="cv-item-title" itemprop="name">{{ patent.title }}</h3>
-        <br>
         <div class="cv-item-details">
             {%- for author in patent.author %}
             {%- if author == site.data.profile.name %}
             <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                <span itemprop="name" class="cv-author underline">{{author}}</span>{% unless forloop.last %},{% endunless %}
+                <span itemprop="name" class="cv-author">{{author}}</span>{% unless forloop.last %},{% endunless %}
                 <meta itemprop="url" content="{{site.url}}">
             </span>
             {%- else %}
@@ -21,34 +23,16 @@
             </span>
             {%- endif -%}
             {% endfor -%}
-
         </div>
-        <br>
         {%- if patent.patent_number %}
-        <div class="cv-item-details">
+        <div class="cv-item-details cv-venue">
             {{ patent.patent_number }}
         </div>
-        &mdash;
         {% endif -%}
-        <div class="cv-item-details">
-            {{ patent.year }}
-        </div>
-        <br>
-        {%- if patent.downloads %}
-        <div class="cv-item-details">
-            {%- for download in patent.downloads %}
-            {% if download[1] contains '://' %}
-            {% assign url = download[1] %}
-            {% else %}
-            {% assign url = base_path | append: download[1] %}
-            {% endif -%}
-            [<a href="{{url}}">{{download[0] | capitalize}}</a>]
-            {%- endfor %}
-        </div>
-        {% endif -%}
+        {% include download-links.html downloads=patent.downloads %}
     </div>
     <div class="cv-item print-only">
         {{ patent.citation | join: ", " | replace: "Carl Hildebrandt", "<b>Carl Hildebrandt</b>" }}
     </div>
     {% endfor %}
-</section>
+</details>

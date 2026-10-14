@@ -1,11 +1,14 @@
-<section id="service" class="cv-section">
-    <header class="section-header">
+<details id="teaching" class="cv-section cv-collapsible" open>
+    <summary class="section-header">
         <h2>Teaching</h2>
-    </header>
+    </summary>
     {% for class in site.data.profile.teaching %}
-    <div class="cv-item">
-        &bullet; {{ class.position }}: {{ class.class_title }} 
-        &bull; {{ class.school }} - {{ class.year }}
+    <div class="cv-item cv-row cv-row-compact cv-row-two-line">
+        <div class="cv-row-main">
+            {{ class.position }}: {{ class.class_title }}
+            <div class="cv-item-details">{{ class.school }}</div>
+        </div>
+        <div class="cv-row-date">{{ class.year }}</div>
     </div>
     {% endfor %}
-</section>
+</details>

@@ -6,30 +6,35 @@
 
 html {
     background: var(--background-color);
-    font-family: "OpenSans-Light", sans-serif;
-    font-size: 1.16667em;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
     position: relative;
     color: var(--text-color);
-    line-height: 1.5;
+    line-height: 1.6;
     min-width: 20em;
-    max-width: 960px;
-    padding: 0 14px;
+    max-width: 720px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
 a {
     color: var(--primary-color);
     text-decoration: none;
-    font-weight: bold;
-    // font-family: "OpenSans", sans-serif; // Use OpenSans for bold text
+    font-weight: 500;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
 }
 
 h3 {
-    font-family: "OpenSans", sans-serif; // Use "OpenSans" for bold text
-    font-weight: bold; // Make the text bold
+    font-weight: 600;
 }
 
 #toggle-dark,
@@ -37,10 +42,12 @@ h3 {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1em;
-    color: var(--text-color);
-}
+    margin: 1.25rem 20px;
+    color: var(--muted-color);
+    font-size: 0.6rem;
 
-.underline {
-    text-decoration: underline;
+    &:hover {
+        color: var(--text-color);
+        text-decoration: none;
+    }
 }

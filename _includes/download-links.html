@@ -1,0 +1,12 @@
+{%- if include.downloads %}
+<div class="cv-links">
+    {%- for download in include.downloads %}
+    {% if download[1] contains '://' %}
+    {% assign url = download[1] %}
+    {% else %}
+    {% assign url = base_path | append: download[1] %}
+    {% endif -%}
+    <a class="pill-link" href="{{url}}">{{download[0] | capitalize}}</a>
+    {%- endfor %}
+</div>
+{% endif -%}

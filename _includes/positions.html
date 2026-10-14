@@ -1,20 +1,33 @@
-<section id="experience" class="cv-section">
-    <header class="section-header">
-        <h2>Positions Held</h2>
-    </header>
+<details id="experience" class="cv-section cv-collapsible" open>
+    <summary class="section-header">
+        <h2>Experience</h2>
+    </summary>
     {% for position in site.data.profile.positions %}
-    <div class="cv-item">
-        <h3 class="cv-item-title">
-            {{ position.title }}
-        </h3>
-        &bull;
-        <div class="cv-item-details">
-            {{ position.employer }}
-        </div>
-        <br>
-        <div class="cv-item-details">
-            {{ position.duration }}
+    <div class="cv-item cv-card{% if position.current %} cv-card-current{% endif %}">
+        {% include logo.html file=position.logo name=position.employer plain=position.logo_plain %}
+        <div class="cv-card-body">
+            <div class="cv-row">
+                <div class="cv-row-main">
+                    {% if position.current %}
+                    <span class="now-label no-print">Current</span>
+                    {% endif %}
+                    <h3 class="cv-item-title">
+                        {{ position.title }}
+                    </h3>
+                    <div class="cv-item-details">
+                        {{ position.employer }}
+                    </div>
+                </div>
+                <div class="cv-row-date">
+                    {{ position.duration }}
+                </div>
+            </div>
+            {% if position.description and position.description != "" %}
+            <p class="cv-item-description">
+                {{ position.description }}
+            </p>
+            {% endif %}
         </div>
     </div>
     {% endfor %}
-</section>
+</details>

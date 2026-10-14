@@ -1,10 +1,11 @@
 name: "Carl Hildebrandt"
 email: "carl@carl-h.com"
 address: "San Francisco, CA, USA"
-position: "Founder & Ph.D. in Autonomous System Safety"
-affiliation: "Stealth Startup"
+position: "Co-Founder & CEO, SinManos"
+headline: "Co-Founder & CEO, SinManos · Ph.D., Autonomous System Safety"
+affiliation: "SinManos"
 description: "Building technology to make our roads safer."
-bio: "My career is driven by a single focus: building a foundation of trust between technology and the real world. During my Ph.D. in Autonomous System Safety, I explored the complex pipeline of testing systems that must operate flawlessly where software, hardware, and physical interactions meet. I learned that true safety isn't just about code; it's about creating verifiable proof in a constantly changing environment.\n\nThis insight led me to my current path. I am now the founder of a new venture in stealth mode, building technology to solve this exact challenge at scale. My mission is to create a new standard for safety and trust that will underpin the future of mobility.\n\nWhether it's on the hockey field, summiting Kilimanjaro, or pushing through an ultramarathon, I thrive on solving complex challenges that demand discipline and endurance. I'm bringing that same energy to building my company."
+bio: "I've spent my career working on one question: how do you know a machine is safe to let loose in the real world? My Ph.D. was in autonomous system safety, testing systems where software, hardware, and the messy physical world all meet. The biggest thing I took away is that safety isn't just good code. You need proof, and the world keeps changing underneath you.\n\nThat's why I co-founded SinManos. We check whether vehicles, human-driven or autonomous, actually follow the rules of the road. It turns out to be one of the best early signs of how safely a fleet is driving, and we help fleets, insurers, and regulators see it at scale.\n\nOutside work, you'll find me playing hockey, playing video games, or reading a good book."
 keywords:
   - founder
   - entrepreneurship
@@ -25,33 +26,43 @@ education:
   - degree: Ph.D., Computer Science
     date: June 2024
     school: University of Virginia
+    logo: uva.png
     advisor:
       - Sebastian Elbaum
   - degree: B.Eng., Computer Engineering
     date: Dec 2016
     school: University of Pretoria
+    logo: pretoria.png
 positions:
-  - employer: Stealth Startup
-    title: Founder & CEO
+  - employer: SinManos
+    logo: sinmanos.png
+    title: Co-Founder & CEO
+    current: true
     duration: "October 2025 &mdash; Present"
     description: ""
   - employer: Nuro
+    logo: nuro.png
     title: Software System Engineer, Autonomy Verification and Test Engineering
     duration: "June 2024 &mdash; September 2025"
     description: ""
   - employer: Department of Computer Science, University of Virginia, LESS Lab
+    logo: uva.png
     title: Graduate Research Assistant
     duration: "August 2018 &mdash; June 2024"
     description: ""
   - employer: Vuetech Health Innovations LLC
+    logo: vuetech.png
+    logo_plain: true
     title: Head of Technology
     duration: "November 2019 &mdash; July 2022"
     description: ""
   - employer: Raytheon BBN
+    logo: raytheon-bbn.png
     title: Graduate Research Intern
     duration: "May 2022 &mdash; August 2022"
     description: ""
   - employer: Department of Computer Science, University of Nebraska, NIMBUS Lab
+    logo: nebraska.png
     title: Graduate Research Assistant
     duration: "July 2017 &mdash; July 2018"
     description: ""

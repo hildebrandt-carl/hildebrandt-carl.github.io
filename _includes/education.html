@@ -1,31 +1,31 @@
-<section id="education" class="cv-section">
-    <header class="section-header">
+<details id="education" class="cv-section cv-collapsible" open>
+    <summary class="section-header">
         <h2>Education</h2>
-    </header>
+    </summary>
     {% for education in site.data.profile.education %}
-    <div class="cv-item">
-        <h3 class="cv-item-title">
-            <span itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
-                <span itemprop="name">{{ education.degree }}</span>
-            </span>
-        </h3>
-        &bull;
-        <div class="cv-item-details">
-            {{ education.date }}
-        </div>
-        &bull;
-        <div class="cv-item-details" itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
-            <div class="cv-item-details" itemprop="name">
-                {{ education.school }}
+    <div class="cv-item cv-card">
+        {% include logo.html file=education.logo name=education.school plain=education.logo_plain %}
+        <div class="cv-card-body cv-row">
+            <div class="cv-row-main">
+                <h3 class="cv-item-title">
+                    <span itemprop="hasCredential" itemscope itemtype="https://schema.org/EducationalOccupationalCredential">
+                        <span itemprop="name">{{ education.degree }}</span>
+                    </span>
+                </h3>
+                <div class="cv-item-details" itemprop="alumniOf" itemscope itemtype="https://schema.org/CollegeOrUniversity">
+                    <span itemprop="name">{{ education.school }}</span>
+                </div>
+                {% if education.advisor %}
+                <div class="cv-item-details">
+                    Advised by
+                    {{ education.advisor | join: " and " }}
+                </div>
+                {% endif %}
+            </div>
+            <div class="cv-row-date">
+                {{ education.date }}
             </div>
         </div>
-        {% if education.advisor %}
-        <br>
-        <div class="cv-item-details">
-            Advised by:
-            {{ education.advisor | join: " and " }}
-        </div>
-        {% endif %}
     </div>
     {% endfor %}
-</section>
+</details>

@@ -1,0 +1,15 @@
+{%- comment -%}
+Shows assets/images/logos/<file> if it exists, otherwise a placeholder with the file's first letter.
+Pass plain=true for transparent logos that shouldn't sit on a white tile.
+{%- endcomment -%}
+{%- assign logo_path = "/assets/images/logos/" | append: include.file -%}
+{%- assign logo_file = site.static_files | where: "path", logo_path | first -%}
+{%- if include.file and logo_file %}
+<div class="cv-logo{% if include.plain %} cv-logo-plain{% endif %} no-print" aria-hidden="true">
+    <img src="{{ logo_path | relative_url }}" alt="" loading="lazy">
+</div>
+{%- else %}
+<div class="cv-logo cv-logo-placeholder no-print" aria-hidden="true">
+    <span>{{ include.file | default: include.name | slice: 0 | upcase }}</span>
+</div>
+{%- endif %}
