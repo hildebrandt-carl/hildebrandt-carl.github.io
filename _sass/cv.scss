@@ -119,6 +119,17 @@
         font-size: 0.9rem;
     }
 
+    // Employer links look like plain text until hovered
+    .cv-employer-link {
+        color: inherit;
+        font-weight: inherit;
+
+        &:hover {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+    }
+
     .cv-item-description {
         font-size: 0.9rem;
         margin: 0.4rem 0 0 0;

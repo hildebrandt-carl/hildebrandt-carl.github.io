@@ -35,33 +35,39 @@ education:
     logo: pretoria.png
 positions:
   - employer: SinManos
+    url: https://sinmanos.ai/
     logo: sinmanos.png
     title: Co-Founder & CEO
     current: true
     duration: "October 2025 &mdash; Present"
     description: ""
   - employer: Nuro
+    url: https://www.nuro.ai/
     logo: nuro.png
     title: Software System Engineer, Autonomy Verification and Test Engineering
     duration: "June 2024 &mdash; September 2025"
     description: ""
   - employer: Department of Computer Science, University of Virginia, LESS Lab
+    url: https://less-lab-uva.github.io/
     logo: uva.png
     title: Graduate Research Assistant
     duration: "August 2018 &mdash; June 2024"
     description: ""
   - employer: Vuetech Health Innovations LLC
+    url: https://www.linkedin.com/company/vuetech-health-innovations/
     logo: vuetech.png
     logo_plain: true
     title: Head of Technology
     duration: "November 2019 &mdash; July 2022"
     description: ""
   - employer: Raytheon BBN
+    url: https://www.rtx.com/what-we-do/bbn-technologies
     logo: raytheon-bbn.png
     title: Graduate Research Intern
     duration: "May 2022 &mdash; August 2022"
     description: ""
   - employer: Department of Computer Science, University of Nebraska, NIMBUS Lab
+    url: https://nimbus.unl.edu/
     logo: nebraska.png
     title: Graduate Research Assistant
     duration: "July 2017 &mdash; July 2018"

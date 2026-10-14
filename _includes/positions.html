@@ -15,7 +15,11 @@
                         {{ position.title }}
                     </h3>
                     <div class="cv-item-details">
+                        {% if position.url %}
+                        <a class="cv-employer-link" href="{{ position.url }}" target="_blank" rel="noopener">{{ position.employer }}</a>
+                        {% else %}
                         {{ position.employer }}
+                        {% endif %}
                     </div>
                 </div>
                 <div class="cv-row-date">
