@@ -1,40 +1,30 @@
 <head>
     <meta charset="utf-8">
-    <meta name="canonical" href="{{ site.url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.data.profile.description }}">
     <meta name="keywords" content="{{ site.data.profile.keywords | join: ', ' }}">
     <meta name="author" content="{{ site.data.profile.name }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon.ico" />
+    <link rel="canonical" href="{{ site.url }}/">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-    <meta property="og:title" content="Carl Hildebrandt" />
-    <meta property="og:type" content="profile" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:image" content="{{ 'assets/images/profile.png' | absolute_url }}" />
+    <meta property="og:title" content="{{ site.data.profile.name }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:image" content="{{ 'assets/images/profile.png' | absolute_url }}">
     <meta property="og:description" content="{{ site.data.profile.description }}">
 
-    {% if page.title -%}
-    <title>{{ page.title }}</title>
-    {%- else -%}
-    <title>{{ site.data.profile.name }}{% if site.data.profile.position %} - {{ site.data.profile.position }}{% endif
-        -%}
-    </title>
-    {%- endif %}
+    <title>{{ page.title | default: site.data.profile.name }}</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
-    {% include default_style.html %}
-
-    <noscript>
-        <style>
-            #toggle-dark,
-            #toggle-light {
-                display: none !important;
-            }
-        </style>
-    </noscript>
+    <!-- Apply the theme saved by the toggle before the page draws, so it doesn't flash -->
+    <script>
+        try { var savedTheme = localStorage.getItem('theme'); if (savedTheme) document.documentElement.dataset.theme = savedTheme; } catch (e) {}
+    </script>
 
     {%- include analytics.html -%}
 </head>

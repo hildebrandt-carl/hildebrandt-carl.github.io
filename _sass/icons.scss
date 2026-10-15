@@ -1,25 +1,10 @@
-.icon {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0em 0.1em;
-    width: 2em;
-    height: 2em;
-}
-
-img.icon {
-    filter: var(--invert-filter);
-    color: var(--background-color);
-}
-
-svg.icon {
-    filter: var(--invert-filter);
-    color: var(--background-color);
-}
-
-span.icon {
-    font-size: 1em;
-    line-height: 2em;
-    text-align: center;
+// Icon font made with icomoon.io, see assets/fonts/README
+@font-face {
+    font-family: 'icomoon';
+    src: url("/assets/fonts/icomoon.woff") format("woff");
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
 }
 
 i[class*=icon-] {
@@ -37,8 +22,6 @@ i[class*=icon-] {
     text-transform: none;
     font-size: 2em;
     line-height: 1;
-
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

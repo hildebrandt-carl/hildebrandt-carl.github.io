@@ -2,7 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-feed"
-gem "jekyll-sitemap"
-gem "kramdown-parser-gfm"
+# Same Jekyll version and plugins that GitHub Pages uses to build the live site
+gem "github-pages", group: :jekyll_plugins
+
+# Needed for `jekyll serve` on Ruby 3+
+gem "webrick"

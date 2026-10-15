@@ -1,0 +1,16 @@
+{%- comment -%}
+Comma-separated author list. The site owner's name is shown in bold.
+Usage: {% include authors.html authors=page.author %}
+{%- endcomment -%}
+<div class="cv-item-details">
+    {%- for author in include.authors %}
+    <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        {%- if author == site.data.profile.name %}
+        <span itemprop="name" class="cv-author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+        <meta itemprop="url" content="{{ site.url }}">
+        {%- else %}
+        <span itemprop="name">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+        {%- endif %}
+    </span>
+    {%- endfor %}
+</div>

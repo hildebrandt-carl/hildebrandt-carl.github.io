@@ -1,38 +1,28 @@
+{%- assign bold_name = site.data.profile.name | prepend: "<b>" | append: "</b>" -%}
 <details id="patents" class="cv-section cv-collapsible" open>
     <summary class="section-header">
         <h2>Patents</h2>
     </summary>
     {% for patent in site.patents reversed %}
     <div class="cv-item cv-card cv-card-paper no-print" itemscope itemtype="https://schema.org/ScholarlyArticle">
-        <meta itemprop="datePublished" content="{{patent.date | date: '%Y-%m-%d'}}">
-        <meta itemprop="headline" content="{{patent.title}}">
+        <meta itemprop="datePublished" content="{{ patent.date | date: '%Y-%m-%d' }}">
+        <meta itemprop="headline" content="{{ patent.title }}">
         <div class="cv-meta">
             <span class="tag">US Patent &middot; {{ patent.year }}</span>
         </div>
         <h3 class="cv-item-title" itemprop="name">{{ patent.title }}</h3>
-        <div class="cv-item-details">
-            {%- for author in patent.author %}
-            {%- if author == site.data.profile.name %}
-            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                <span itemprop="name" class="cv-author">{{author}}</span>{% unless forloop.last %},{% endunless %}
-                <meta itemprop="url" content="{{site.url}}">
-            </span>
-            {%- else %}
-            <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                <span itemprop="name">{{author}}</span>{% unless forloop.last %},{% endunless %}
-            </span>
-            {%- endif -%}
-            {% endfor -%}
-        </div>
+        {% include authors.html authors=patent.author %}
         {%- if patent.patent_number %}
         <div class="cv-item-details cv-venue">
             {{ patent.patent_number }}
         </div>
-        {% endif -%}
+        {%- endif %}
         {% include download-links.html downloads=patent.downloads %}
     </div>
+    {%- if patent.citation %}
     <div class="cv-item print-only">
-        {{ patent.citation | join: ", " | replace: "Carl Hildebrandt", "<b>Carl Hildebrandt</b>" }}
+        {{ patent.citation | replace: site.data.profile.name, bold_name }}
     </div>
+    {%- endif %}
     {% endfor %}
 </details>

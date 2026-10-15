@@ -4,14 +4,7 @@
 {% include head.html %}
 
 <body>
-    <a id="toggle-light" class="no-print" href="javascript:location.replace('?light')" aria-label="Turn on light mode."
-        title="Turn on light mode.">
-        <i class="icon-sun"></i>
-    </a>
-    <a id="toggle-dark" class="no-print" href="javascript:location.replace('?dark')" aria-label="Turn on dark mode."
-        title="Turn on dark mode.">
-        <i class="icon-moon"></i>
-    </a>
+    <button id="theme-toggle" class="no-print" type="button" hidden></button>
 
     <div itemscope itemtype="https://schema.org/Person">
         <meta itemprop="sameAs" content="{{ site.url }}">
@@ -103,24 +96,29 @@
     </footer>
 
     <script>
-        var r = document.querySelector(':root');
-        var query = window.location.search.replace("?", '');
-        var themeTokens = ['primary-color', 'secondary-color', 'text-color', 'muted-color', 'border-color',
-            'surface-color', 'highlight-color', 'highlight-border', 'background-color', 'invert-filter'];
+        // Light/dark toggle. With no saved choice, the theme follows the system setting.
+        var root = document.documentElement;
+        var toggle = document.getElementById('theme-toggle');
 
-        function setTheme(theme) {
-            var suffix = theme === 'dark' ? '-dark' : '-light';
-            themeTokens.forEach(function (token) {
-                r.style.setProperty('--' + token, getComputedStyle(r).getPropertyValue('--' + token + suffix));
-            });
-            document.querySelector('#toggle-dark').style.display = theme === 'dark' ? "none" : "inline-block";
-            document.querySelector('#toggle-light').style.display = theme === 'dark' ? "inline-block" : "none";
+        function currentTheme() {
+            if (root.dataset.theme) return root.dataset.theme;
+            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         }
-        if (query === 'dark') {
-            setTheme('dark');
-        } else if (query === 'light') {
-            setTheme('light');
+
+        function updateToggle() {
+            var isDark = currentTheme() === 'dark';
+            toggle.innerHTML = isDark ? '<i class="icon-sun"></i>' : '<i class="icon-moon"></i>';
+            toggle.title = isDark ? 'Turn on light mode.' : 'Turn on dark mode.';
+            toggle.setAttribute('aria-label', toggle.title);
         }
+
+        toggle.addEventListener('click', function () {
+            root.dataset.theme = currentTheme() === 'dark' ? 'light' : 'dark';
+            try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+            updateToggle();
+        });
+        updateToggle();
+        toggle.hidden = false;
 
         // Expand the collapsible sections so they appear in the printed CV
         window.addEventListener('beforeprint', function () {
@@ -129,8 +127,6 @@
             });
         });
     </script>
-    
-    
 </body>
 
 </html>

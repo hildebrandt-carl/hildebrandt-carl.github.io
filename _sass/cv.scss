@@ -14,7 +14,7 @@
         width: 112px;
         height: 112px;
         object-fit: cover;
-        @include border-radius(56px);
+        border-radius: 50%;
         display: block;
     }
 
@@ -88,7 +88,8 @@
 }
 
 .section-header {
-    @include section-border;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 0 .5rem 0;
     margin: 3rem 0 1rem 0;
 
     h2 {
@@ -295,7 +296,7 @@
     }
 }
 
-// Collapsible sections (Teaching, Service)
+// Collapsible sections (every section below the bio)
 .cv-collapsible {
     summary {
         display: block;
@@ -375,14 +376,6 @@
 
     .print-only {
         display: block !important;
-
-        .cv-item-details {
-            display: inline !important;
-        }
-    }
-
-    span.print-only {
-        display: inline !important;
     }
 
     html {

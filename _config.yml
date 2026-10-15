@@ -1,16 +1,9 @@
 url: "https://carl-h.com"
 
+# Publications and patents are only listed on the main page, so they don't get pages of their own
 collections:
-  patents:
-    output: true
-  publications:
-    output: true
-
-defaults:
-  - scope:
-      path: "files/**"
-    values:
-      sitemap: false
+  - publications
+  - patents
 
 analytics:
   google:
@@ -20,14 +13,14 @@ plugins:
   - jekyll-sitemap
 
 exclude:
-  - CHANGELOG
-  - CNAME
+  - README.md
   - LICENSE
-  - README
-  - tmp
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - assets/fonts/README
+  - assets/fonts/icomoon.json
 
 sass:
   style: compressed
-  # GitHub Pages' Sass doesn't support @use, so keep @import and hide the warning
-  silence_deprecations:
-    - import
